@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .gauges {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .gauge {
+    width: 200px;
+    height: 160px;
+    margin: 10px;
+  }
+  
+  .status {
+    font-size: 1.5em;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 600px) {
+    .gauges {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
